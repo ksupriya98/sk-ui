@@ -39,8 +39,8 @@ export default function Home() {
               Choose what you grow, <span>feed it right</span>
             </h1>
             <p className="home-hero__text">
-              Start with fruits, plants, or crops — then open any item to see
-              the fertilizers that support healthy growth.
+              Start with fruits, vegetables, flowers, or crops — then open any
+              item to see the fertilizers that support healthy growth.
             </p>
             <div className="home-hero__actions">
               <a href="#categories" className="btn btn-primary">
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="home-hero__media">
             <img
               src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80"
-              alt="Healthy green plants growing in rich soil"
+              alt="Healthy garden greens growing in rich soil"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">Browse by type</span>
-            <h2>Fruits, Plants & Crops</h2>
+            <h2>Fruits, Vegetables, Flowers & Crops</h2>
             <p>
               Pick a category to explore items, then view the fertilizers each
               one typically needs.

@@ -1,4 +1,4 @@
-export type CategorySlug = "fruits" | "plants" | "crops";
+export type CategorySlug = "fruits" | "vegetables" | "flowers" | "crops";
 
 export interface Fertilizer {
   id: string;

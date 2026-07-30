@@ -13,8 +13,8 @@ export default function Footer() {
             <span className="brand__name">Urvara</span>
           </Link>
           <p>
-            Practical fertilizer guidance for fruits, plants, and crops — so
-            every grower can feed soil with purpose.
+            Practical fertilizer guidance for fruits, vegetables, flowers, and
+            crops — so every grower can feed soil with purpose.
           </p>
         </div>
 
@@ -25,7 +25,10 @@ export default function Footer() {
               <Link to="/category/fruits">Fruits</Link>
             </li>
             <li>
-              <Link to="/category/plants">Plants</Link>
+              <Link to="/category/vegetables">Vegetables</Link>
+            </li>
+            <li>
+              <Link to="/category/flowers">Flowers</Link>
             </li>
             <li>
               <Link to="/category/crops">Crops</Link>

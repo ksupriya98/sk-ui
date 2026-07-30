@@ -77,5 +77,10 @@ export async function fetchFertilizersForItem(
 }
 
 export function isCategorySlug(value: string): value is CategorySlug {
-  return value === "fruits" || value === "plants" || value === "crops";
+  return (
+    value === "fruits" ||
+    value === "vegetables" ||
+    value === "flowers" ||
+    value === "crops"
+  );
 }

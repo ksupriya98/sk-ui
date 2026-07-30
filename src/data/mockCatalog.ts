@@ -198,18 +198,18 @@ export const catalogItems: CatalogItem[] = [
     description:
       "Drought-tolerant orchard crop that responds well to organic matter and potash.",
     image:
-      "https://images.unsplash.com/photo-1596591868231-05e898775573?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1575398640594-f23d65cd1150?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Autumn–winter",
     soilPreference: "Deep loam to sandy loam",
     fertilizerIds: ["fym", "neem-cake", "npk-19-19-19", "mop", "bone-meal"],
   },
 
-  // Plants
+  // Vegetables
   {
     id: "tomato",
     slug: "tomato",
     name: "Tomato",
-    category: "plants",
+    category: "vegetables",
     description:
       "Garden staple prone to blossom-end rot without adequate calcium.",
     image:
@@ -219,27 +219,14 @@ export const catalogItems: CatalogItem[] = [
     fertilizerIds: ["compost", "dap", "calcium-nitrate", "mop", "seaweed"],
   },
   {
-    id: "rose",
-    slug: "rose",
-    name: "Rose",
-    category: "plants",
-    description:
-      "Flowering shrub that rewards regular organic feeding and micronutrients.",
-    image:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
-    growingSeason: "Spring–autumn blooms",
-    soilPreference: "Fertile, slightly acidic loam",
-    fertilizerIds: ["compost", "bone-meal", "npk-19-19-19", "seaweed", "neem-cake"],
-  },
-  {
     id: "chili",
     slug: "chili",
     name: "Chili",
-    category: "plants",
+    category: "vegetables",
     description:
       "Spice crop needing steady nitrogen early and potash for pungent pods.",
     image:
-      "https://images.unsplash.com/photo-1583119022894-919a68bba8ea?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615375558203-d85d29ccf429?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Warm season",
     soilPreference: "Sandy loam with good drainage",
     fertilizerIds: ["fym", "urea", "mop", "npk-19-19-19", "micronutrient-mix"],
@@ -248,7 +235,7 @@ export const catalogItems: CatalogItem[] = [
     id: "spinach",
     slug: "spinach",
     name: "Spinach",
-    category: "plants",
+    category: "vegetables",
     description:
       "Leafy green that thrives on nitrogen-rich organic amendments.",
     image:
@@ -258,30 +245,123 @@ export const catalogItems: CatalogItem[] = [
     fertilizerIds: ["compost", "urea", "neem-cake", "micronutrient-mix"],
   },
   {
+    id: "basil",
+    slug: "basil",
+    name: "Basil",
+    category: "vegetables",
+    description:
+      "Aromatic herb that prefers light, frequent feeding without excess nitrogen.",
+    image:
+      "https://images.unsplash.com/photo-1572978577745-245cde7e1da3?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Warm season",
+    soilPreference: "Light, well-drained soil",
+    fertilizerIds: ["compost", "seaweed", "npk-19-19-19", "neem-cake"],
+  },
+  {
+    id: "carrot",
+    slug: "carrot",
+    name: "Carrot",
+    category: "vegetables",
+    description:
+      "Root vegetable that needs loose soil and steady phosphorus for sweet roots.",
+    image:
+      "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Cool season",
+    soilPreference: "Deep, sandy loam free of stones",
+    fertilizerIds: ["compost", "ssp", "mop", "neem-cake"],
+  },
+  {
+    id: "onion",
+    slug: "onion",
+    name: "Onion",
+    category: "vegetables",
+    description:
+      "Bulb crop that responds to balanced NPK with higher potash near bulbing.",
+    image:
+      "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Cool to mild season",
+    soilPreference: "Fertile, well-drained loam",
+    fertilizerIds: ["fym", "urea", "ssp", "mop", "micronutrient-mix"],
+  },
+
+  // Flowers
+  {
+    id: "rose",
+    slug: "rose",
+    name: "Rose",
+    category: "flowers",
+    description:
+      "Flowering shrub that rewards regular organic feeding and micronutrients.",
+    image:
+      "https://images.unsplash.com/photo-1494972308805-463bc619d34e?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Spring–autumn blooms",
+    soilPreference: "Fertile, slightly acidic loam",
+    fertilizerIds: ["compost", "bone-meal", "npk-19-19-19", "seaweed", "neem-cake"],
+  },
+  {
     id: "marigold",
     slug: "marigold",
     name: "Marigold",
-    category: "plants",
+    category: "flowers",
     description:
       "Hardy ornamental that benefits from balanced NPK and compost.",
     image:
-      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Year-round in mild climates",
     soilPreference: "Well-drained garden soil",
     fertilizerIds: ["compost", "npk-19-19-19", "bone-meal", "seaweed"],
   },
   {
-    id: "basil",
-    slug: "basil",
-    name: "Basil",
-    category: "plants",
+    id: "sunflower",
+    slug: "sunflower",
+    name: "Sunflower",
+    category: "flowers",
     description:
-      "Aromatic herb that prefers light, frequent feeding without excess nitrogen.",
+      "Tall annual that needs nitrogen early and potash as heads fill.",
     image:
-      "https://images.unsplash.com/photo-1618375569909-3cda11a5c0f0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595306882393-251d8e085b3d?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Warm season",
-    soilPreference: "Light, well-drained soil",
-    fertilizerIds: ["compost", "seaweed", "npk-19-19-19", "neem-cake"],
+    soilPreference: "Deep, well-drained fertile soil",
+    fertilizerIds: ["compost", "urea", "mop", "npk-19-19-19"],
+  },
+  {
+    id: "hibiscus",
+    slug: "hibiscus",
+    name: "Hibiscus",
+    category: "flowers",
+    description:
+      "Tropical bloomer that thrives on organic matter and regular micronutrients.",
+    image:
+      "https://images.unsplash.com/photo-1610670885249-d1597521dfea?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Warm season blooms",
+    soilPreference: "Moist, fertile, well-drained soil",
+    fertilizerIds: ["compost", "neem-cake", "npk-19-19-19", "seaweed", "micronutrient-mix"],
+  },
+  {
+    id: "jasmine",
+    slug: "jasmine",
+    name: "Jasmine",
+    category: "flowers",
+    description:
+      "Fragrant climber that prefers light feeding and phosphorus before bloom.",
+    image:
+      "https://images.unsplash.com/photo-1768113802480-d98319a295d0?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Spring–summer blooms",
+    soilPreference: "Well-drained loam with organic matter",
+    fertilizerIds: ["compost", "bone-meal", "npk-19-19-19", "seaweed"],
+  },
+  {
+    id: "lavender",
+    slug: "lavender",
+    name: "Lavender",
+    category: "flowers",
+    description:
+      "Aromatic perennial that prefers lean soil and light, infrequent feeding.",
+    image:
+      "https://images.unsplash.com/photo-1499002238440-d264edd596ec?auto=format&fit=crop&w=800&q=80",
+    growingSeason: "Summer blooms",
+    soilPreference: "Well-drained, slightly alkaline soil",
+    fertilizerIds: ["compost", "bone-meal", "seaweed"],
   },
 
   // Crops
@@ -332,7 +412,7 @@ export const catalogItems: CatalogItem[] = [
     description:
       "Fiber crop needing nitrogen for canopy and potash for boll quality.",
     image:
-      "https://images.unsplash.com/photo-1605000797499-95a51c5269b3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1656530943970-a9b898f40edb?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Kharif",
     soilPreference: "Deep black or alluvial soils",
     fertilizerIds: ["neem-cake", "urea", "dap", "mop", "micronutrient-mix"],
@@ -358,7 +438,7 @@ export const catalogItems: CatalogItem[] = [
     description:
       "Oilseed legume that fixes nitrogen but still needs phosphorus and sulphur.",
     image:
-      "https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1630095829721-5179c495f1cf?auto=format&fit=crop&w=800&q=80",
     growingSeason: "Kharif",
     soilPreference: "Well-drained loam",
     fertilizerIds: ["ssp", "mop", "fym", "micronutrient-mix", "compost"],
@@ -374,11 +454,18 @@ const categoryMeta: Omit<Category, "itemCount">[] = [
       "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=80",
   },
   {
-    id: "plants",
-    title: "Plants",
-    description: "Vegetables, herbs, and ornamentals for home gardens.",
+    id: "vegetables",
+    title: "Vegetables",
+    description: "Kitchen-garden veggies with practical nutrient plans.",
     image:
-      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    id: "flowers",
+    title: "Flowers",
+    description: "Ornamentals and bloomers with feeding schedules for color.",
+    image:
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: "crops",

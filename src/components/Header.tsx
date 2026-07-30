@@ -5,7 +5,8 @@ import "./Header.css";
 const navLinks = [
   { label: "Home", to: "/" },
   { label: "Fruits", to: "/category/fruits" },
-  { label: "Plants", to: "/category/plants" },
+  { label: "Vegetables", to: "/category/vegetables" },
+  { label: "Flowers", to: "/category/flowers" },
   { label: "Crops", to: "/category/crops" },
 ];
 
