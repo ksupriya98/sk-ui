@@ -15,6 +15,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Throughout active growth",
     image:
       "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80",
+    price: 349,
+    unit: "1 kg",
   },
   {
     id: "urea",
@@ -25,6 +27,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Early vegetative stage",
     image:
       "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    price: 299,
+    unit: "5 kg",
   },
   {
     id: "dap",
@@ -35,6 +39,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "At sowing / transplanting",
     image:
       "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=600&q=80",
+    price: 429,
+    unit: "5 kg",
   },
   {
     id: "mop",
@@ -45,6 +51,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Flowering to fruit development",
     image:
       "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=600&q=80",
+    price: 389,
+    unit: "5 kg",
   },
   {
     id: "compost",
@@ -54,6 +62,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Before planting and as annual top-dress",
     image:
       "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=600&q=80",
+    price: 249,
+    unit: "5 kg",
   },
   {
     id: "bone-meal",
@@ -64,6 +74,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Pre-bloom and fruit set",
     image:
       "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=600&q=80",
+    price: 279,
+    unit: "1 kg",
   },
   {
     id: "neem-cake",
@@ -73,6 +85,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Basal and mid-season",
     image:
       "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80",
+    price: 199,
+    unit: "2 kg",
   },
   {
     id: "calcium-nitrate",
@@ -83,6 +97,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Fruit development",
     image:
       "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=600&q=80",
+    price: 319,
+    unit: "1 kg",
   },
   {
     id: "micronutrient-mix",
@@ -92,6 +108,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Pre-flowering to fruit set",
     image:
       "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=600&q=80",
+    price: 359,
+    unit: "500 g",
   },
   {
     id: "ssp",
@@ -102,6 +120,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "At sowing",
     image:
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80",
+    price: 269,
+    unit: "5 kg",
   },
   {
     id: "fym",
@@ -111,6 +131,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "3–4 weeks before planting",
     image:
       "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=600&q=80",
+    price: 179,
+    unit: "10 kg",
   },
   {
     id: "seaweed",
@@ -120,6 +142,8 @@ export const fertilizers: Fertilizer[] = [
     timing: "Stress periods and flowering",
     image:
       "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=600&q=80",
+    price: 299,
+    unit: "500 ml",
   },
 ];
 

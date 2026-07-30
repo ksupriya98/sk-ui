@@ -1,4 +1,5 @@
 import type { Fertilizer } from "../types/catalog";
+import { useCart } from "../context/CartContext";
 import "./FertilizerCard.css";
 
 interface FertilizerCardProps {
@@ -6,10 +7,16 @@ interface FertilizerCardProps {
   index: number;
 }
 
+function formatInr(amount: number) {
+  return `₹${amount.toFixed(0)}`;
+}
+
 export default function FertilizerCard({
   fertilizer,
   index,
 }: FertilizerCardProps) {
+  const { addToCart } = useCart();
+
   return (
     <article className="fert-card">
       <div className="fert-card__media">
@@ -34,6 +41,19 @@ export default function FertilizerCard({
             <dd>{fertilizer.application}</dd>
           </div>
         </dl>
+        <div className="fert-card__buy">
+          <div className="fert-card__price">
+            <strong>{formatInr(fertilizer.price)}</strong>
+            <span>/ {fertilizer.unit}</span>
+          </div>
+          <button
+            type="button"
+            className="btn btn-primary fert-card__btn"
+            onClick={() => addToCart(fertilizer)}
+          >
+            Buy
+          </button>
+        </div>
       </div>
     </article>
   );

@@ -103,6 +103,39 @@
   color: var(--ink);
 }
 
+.fert-card__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--sand);
+  flex-wrap: wrap;
+}
+
+.fert-card__price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.fert-card__price strong {
+  font-size: 1.2rem;
+  color: var(--green-700);
+  font-family: "Playfair Display", serif;
+}
+
+.fert-card__price span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.fert-card__btn {
+  padding: 10px 22px;
+  font-size: 0.88rem;
+}
+
 @media (max-width: 640px) {
   .fert-card {
     grid-template-columns: 1fr;

@@ -8,6 +8,9 @@ export interface Fertilizer {
   application: string;
   timing: string;
   image: string;
+  /** Unit price in INR */
+  price: number;
+  unit: string;
 }
 
 export interface CatalogItem {
@@ -28,4 +31,38 @@ export interface Category {
   description: string;
   image: string;
   itemCount: number;
+}
+
+export interface CartItem {
+  id: string;
+  name: string;
+  image: string;
+  price: number;
+  unit: string;
+  qty: number;
+}
+
+export interface OrderPayload {
+  customerName: string;
+  email: string;
+  phone: string;
+  address: string;
+  city: string;
+  state: string;
+  zip: string;
+  notes: string;
+  subtotal: number;
+  shipping: number;
+  totalAmount: number;
+  paymentMethod: "Pay on Delivery";
+  items: Array<{
+    productId: string;
+    name: string;
+    price: number;
+    quantity: number;
+  }>;
+}
+
+export interface OrderResponse {
+  id: number;
 }
